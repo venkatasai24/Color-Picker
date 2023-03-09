@@ -30,7 +30,8 @@ input[type="range"] {
 }
 
 #hex-input {
-    width: 200px;
+    width: 250px;
+    height: 3vh;
     margin-top: 10px;
     text-align: center;
     padding: 5px;
