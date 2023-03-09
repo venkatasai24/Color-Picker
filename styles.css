@@ -1,0 +1,41 @@
+body {
+    background-color: #000;
+    font-family: Arial, Helvetica , sans-serif ;
+    color: #fff;
+    font-size: 3vh;
+}
+
+.color-picker {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+}
+
+.color-picker-sliders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-picker-sliders label {
+    margin-top: 10px;
+}
+
+input[type="range"] {
+    width: 30vh ;
+}
+
+#hex-input {
+    width: 200px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}

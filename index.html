@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Color Picker</title>
+    <link rel="icon" href="color.png">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 style="text-align: center;">Color Picker</h1>
+        <div class="color-picker">
+            <div class="color-picker-sliders">
+                <label for="red-slider">Red</label>
+                <input type="range" id="red-slider" min="0" max="255" value="0">
+                <label for="green-slider">Green</label>
+                <input type="range" id="green-slider" min="0" max="255" value="0">
+                <label for="blue-slider">Blue</label>
+                <input type="range" id="blue-slider" min="0" max="255" value="0">
+                <label for="hex-input">Hex Code</label>
+                <input type="text" id="hex-input">
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
